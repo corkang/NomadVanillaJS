@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Nomad JS Challenge</title>
+</head>
+<body>
+  <form id="name-form" class="hidden header"><h1>Hi there,</h1>
+    <input type="text" placeholder="What's your name?">
+    <button>Log in</button>
+  </form>
+  <h1 id="greeting" class="hidden">Greeting ment</h1>
+
+  <div class="sidebar-a">
+    <h2>Time and Location</h2>
+    <h3 id="date"></h3>
+
+    <h3 id="clock"></h3>
+
+    <div id="weather">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <h2>Todo list</h2>
+    <form id="todo-form">
+      <input type="text" placeholder="Write a To Do and Press Enter" required />
+    </form>
+    <ul id="todo-list"></ul>
+  </div>
+  
+  <div class="sidebar-b">
+  </div>
+
+  <script src="js/greeting.js"></script>
+  <script src="js/time.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/img.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+</html>

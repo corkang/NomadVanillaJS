@@ -1,0 +1,19 @@
+body {
+  display: grid;
+  grid-template-areas:
+		"header header header"
+		"   a    main    b   "
+		"   .     .      .   ";
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hidden {
+  display: none;
+}
+
+.header { grid-area: header; }
+.sidebar-a { grid-area: a; }
+.main-content { grid-area: main; }
+.sidebar-b { grid-area: b; }
